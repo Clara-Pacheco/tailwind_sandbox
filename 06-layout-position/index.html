@@ -9,28 +9,131 @@
   </head>
   <body>
     <!-- Positioning -->
+    <div class="relative w-1/2 h-12 bg-red-200 mb-10">
+      <p>Parent Element</p>
+      <div class="absolute bottom-0 right-0 bg-red-500">
+        <p>Child Element</p>
+      </div>
+    </div>
+
 
     <!-- Top left corner -->
+  <div class="relative h-32 w-32 bg-yellow-100 mb-10">
+    Parent Element
+    <div class="absolute left-0 top-0 h-16 w-16 bg-yellow-300">
+      Child Element
+    </div>
+  </div>
 
     <!-- Top right corner -->
 
+    <div class="relative h-32 w-32 bg-green-100 mb-10">
+      Parent Element
+      <div class="absolute right-0 top-0 h-16 w-16 bg-green-300">
+        Child Element
+      </div>
+    </div>
+
     <!-- Bottom left corner -->
+
+    <div class="relative h-32 w-32 bg-pink-100 mb-10">
+      Parent Element
+      <div class="absolute left-0 bottom-0 h-16 w-16 bg-pink-300">
+        Child Element
+      </div>
+    </div>
 
     <!-- Bottom right corner -->
 
+    <div class="relative h-32 w-32 bg-blue-100 mb-10">
+      Parent Element
+      <div class="absolute right-0 bottom-0 h-16 w-16 bg-blue-300">
+        Child Element
+      </div>
+    </div>
+
     <!-- Span top edge -->
+
+    <div class="relative h-32 w-32 bg-blue-100 mb-10">
+      Parent Element
+      <div class="absolute inset-x-0 top-0 h-16 bg-blue-300">
+        Child Element
+      </div>
+    </div>
 
     <!-- Span left edge -->
 
+    <div class="relative h-32 w-32 bg-blue-100 mb-10">
+      Parent Element
+      <div class="absolute inset-y-0 left-0 w-16 bg-blue-300">
+        Child Element
+      </div>
+    </div>
+
     <!-- Span right edge -->
+
+    <div class="relative h-32 w-32 bg-blue-100 mb-10">
+      Parent Element
+      <div class="absolute inset-y-0 right-0 w-16 bg-blue-300">
+        Child Element
+      </div>
+    </div>
 
     <!-- Span bottom edge -->
 
+    <div class="relative h-32 w-32 bg-blue-100 mb-10">
+      Parent Element
+      <div class="absolute inset-x-0 bottom-0 h-16 bg-blue-300">
+        Child Element
+      </div>
+    </div>
+
     <!-- Display Classes -->
+
+    <div>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+      <span class="inline text-green-700 underline font-bold">This is inline</span> Nihil, dolorum maiores
+      alias voluptates doloribus ducimus,quisquam ut iste eaque dolor
+      necessitatibus incidunt possimus labore!Ea enim velit vero est odit
+      similique <span class="inline-block text-red-600 underline font-bold">This is inline block</span> labore dolore,
+      sunt ex impedit dolorum fugit veritatis,sapiente mollitia. Sapiente, tempore
+      perferendis eius itaque molestias eveniet adipisci <span class="block text-yellow-400 underline font-bold">This is block</span>
+      praesentium iure.<span class="hidden text-pink-500 underline font-bold">This is hidden</span> Consequatur excepturi cum doloribus nihil sit?
+      Enim, ad tenetur.
+      </div>
 
     <!-- Z-Index -->
 
+    <div class="relative h-36 mt-10">
+      <div class="absolute left-10 w-24 h-24 bg-blue-500 z-40">1</div>
+      <div class="absolute left-20 w-24 h-24 bg-pink-500">2</div>
+      <div class="absolute left-40 w-24 h-24 bg-green-500 z-10">3</div>
+      <div class="absolute left-60 w-24 h-24 bg-yellow-500 z-20">4</div>
+      <div class="absolute left-80 w-24 h-24 bg-red-500 z-30">5</div>
+    </div>
+  
+    
     <!-- Floats -->
+
+    <div class="w-1/2 mb-20">
+      <img class="w-48 h-48 float-right" src="../assets/img/img1.jpg" alt="computer image"/>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Amet assumenda non fuga. Voluptatum, eveniet sequi, quae
+        dignissimos delectus vel, veritatis quis corporis repellendus
+        esse rerum facere nemo dolor illum! Voluptas!
+      </p>
+
+    </div>
+
+    <div class="w-1/2 mb-10">
+      <img class="w-48 h-48 float-left mr-10" src="../assets/img/img1.jpg" alt="computer image"/>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Amet assumenda non fuga. Voluptatum, eveniet sequi, quae
+        dignissimos delectus vel, veritatis quis corporis repellendus
+        esse rerum facere nemo dolor illum! Voluptas!
+      </p>
+
+    </div>
   </body>
 </html>
 
